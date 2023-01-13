@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Australia';
+    src: url(../fontes/Australia\ Custom\ Italic.otf) format(opentype);
+    font-weight: normal;
+}
+
+*:root{
+    --cor0:#2D4B73;
+    --cor1:#253C59;
+    --cor2:#99B4BF;
+    --cor3:#D9B70D;
+    --cor4:#BF8D30;
+    
+    --fonte-padrão: Arial, verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Australia', cursive;
+    --fonte-manuscrita:  'Dancing Script', cursive;
+}
+body{
+    background-color: var(--cor2);
+    font-family: var(--fonte-padrão);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1{
+    font-family: var(--fonte-destaque);
+    font-size: 4em;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px var(--cor1);
+}
+
+header p{
+    font-family: var(--fonte-padrão);
+    font-weight: bold;
+}
+
+nav{
+    background-color: #253c59ad;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 7px 7px rgba(37, 60, 89, 0.205);
+
+}
+
+nav > a{
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: var(--fonte-manuscrita);
+    font-size: 2em;
+    margin-right: 30px;
+    transition-duration: .6s;
+
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor3);
+
+}
+
+main{
+    font-family: var(--fonte-padrão);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.356);
+}
+
+main h1{
+    background-image: radial-gradient(circle, var(--cor3), var(--cor1));
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+main p{
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    margin: 15px 0px;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.conteudo{
+    display: flex;
+
+}
+
+h1{
+    text-align: center;
+}
+
+li img{
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+}
+
+.conteudo02 {
+    width: 100%;
+}
+
+.lista-curriculo{
+    text-align: center;
+}
+
+footer{
+    background-color: var(--cor0);
+    color: var(--cor3);
+    padding: 10px;
+    text-align: center;
+}
+
+footer h1{
+    font-family: var(--fonte-manuscrita);
+    font-size: 2em;
+    padding-bottom: 20px;
+    
+
+}
+div h4{
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+div.footer{
+    display: inline-block;
+    width: 270px;
+    height: 220px;
+    vertical-align: top;
+    text-align: center;
+    padding: 30px;
+
+}
+    
+
+footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor3);
+}
+    
+footer a:hover{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    text-decoration: underline;
+}
+
