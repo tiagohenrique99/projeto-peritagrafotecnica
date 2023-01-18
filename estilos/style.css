@@ -46,7 +46,8 @@ header > h1{
 
 nav{
     background-color: #253c59ad;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     box-shadow: 0px 7px 7px rgba(37, 60, 89, 0.205);
 
@@ -59,7 +60,7 @@ nav > a{
     text-decoration: none;
     font-family: var(--fonte-manuscrita);
     font-size: 2em;
-    margin-right: 15px;
+    
     transition-duration: .6s;
 
 }
